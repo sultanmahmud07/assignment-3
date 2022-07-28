@@ -3,7 +3,11 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap demo</title>
+    <title>Learing Zoon</title>
+    <!-- favicon link  -->
+    <link rel="shortcut icon" href="images/favicon2.png" type="image/x-icon">
+    <!-- font awesome link  -->
+    <script src="https://kit.fontawesome.com/7a9016557d.js" crossorigin="anonymous"></script>
     <!-- bootstrap link  -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
   </head>
@@ -18,13 +22,15 @@
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-            <a class="navbar-brand fs-2" href="#">Sultan Mahmud</a>
+            <a class="navbar-brand fs-3" href="#">
+              <img class="me-2" style="max-width:60px; max-height: 40px;" src="images/logo.png" alt=""><span class="text-warning fs-1">L. </span>ZooN
+            </a>
             <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
               <li class="nav-item fs-6 ms-1 fw-bold ">
                 <a class="nav-link active" aria-current="page" href="#">Home</a>
               </li>
               <li class="nav-item fs-6 ms-1 fw-bold">
-                <a class="nav-link" href="#">Courses</a>
+                <a class="nav-link" href="#course">Courses</a>
               </li>
               <li class="nav-item fs-6 ms-1 fw-bold">
                 <a class="nav-link" href="#">Deals</a>
@@ -116,9 +122,9 @@
 
   <main>
     <!-- ================================
-        courses section code hare  
+       Our courses section code hare  
       ====================================-->
-    <section class="pt-5">
+    <section class="pt-5 pb-5" id="course">
       <div class="container">
         <div class="pb-5">
           <h1 class="text-center pt-lg-2">Discover Our Popular Courses</h1>
@@ -233,7 +239,41 @@
         </div>
       </div>
     </section>
+<!--==================================
+   Asked Questions section code here 
+  ================================== -->
+  <section>
+    <div class="container">
+      <div class="pb-5">
+        <h1 class="text-center pt-lg-2">Frequently Asked Questions</h1>
+        <p class="w-50 text-center m-auto">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+      </div>
+      
+    </div>
+  </section>
+
   </main>
+<!--==================================
+     footer section code here 
+  ================================== -->
+  <footer class="bg-dark p-5">
+    <div class="container">
+      <div class="p-4"></div>
+      <h1 class="text-center text-white">Learing Zoon</h1>
+      <p class="text-white text-center w-25 m-auto">Office 41, Zawaya Buildin, Ghala Muscat, 
+        Sultanate of Oman</p>
+        <p>Privacy Ploicy  |   Terms of use</p>
+        <div class="social-links">
+          <ul class="d-flex justify-content-center gap-5 pe-4">
+            <li class="d-inline-block"><a href="#" class="fs-4 text-white bg-warning rounded-circle text-center"><i class="fa fa-brands fa-facebook p-2"></i></a></li>
+            <li><a href="#" class="fs-4 text-white bg-warning rounded-circle text-center"><i class="fa fa-brands fa-twitter p-2"></i></a></li>
+            <li><a href="#" class="fa fs-4 text-white bg-warning rounded-circle text-center p-2"><i class="fa-solid fa-envelope "></i></i></a></li>
+            <li><a href="#" class="fs-4 text-white bg-warning rounded-circle text-center"><i class="fa fa-brands fa-linkedin p-2"></i></a></li>
+            
+          </ul>
+        </div>
+      </div>
+  </footer>
 
 
     <!-- bootstrap js link here -->
