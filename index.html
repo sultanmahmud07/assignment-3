@@ -42,7 +42,7 @@
                 <a class="nav-link" href="#">About</a>
               </li>
               <li class="nav-item fs-6 ms-1 fw-bold">
-                <a class="nav-link" href="#">Register</a>
+                <a class="nav-link" href="#register">Register</a>
               </li>
             </ul>
             <form class="d-flex" role="search">
@@ -128,7 +128,7 @@
       <div class="container">
         <div class="pb-5">
           <h1 class="text-center pt-lg-2">Discover Our Popular Courses</h1>
-          <p class="w-50 text-center m-auto">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+          <p class="w-50 text-center m-auto text-muted">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
         </div>
         <div class="course-inner">
           <div class="row row-cols-lg-2 row-cols-md-1 row-cols-sm-1 row-cols-1 g-5">
@@ -237,8 +237,56 @@
             </div>
           </div>
         </div>
+        <div class="see-more text-center p-3">
+          <button type="button" class="btn btn-primary">See More Courses</button>
+        </div>
       </div>
     </section>
+ <!--==================================
+       Registation section code here 
+  ================================== -->
+  <section class="my-5" id="register">
+    <div class="container">
+      <div class="row p-5 bg-primary  rounded-3">
+        <div class="cos col-12 col-lg-7 col-md-12 col-sm-12 ">
+          <h2 class="text-white">Ready to join?</h2>
+          <p class="text-white">Register here if you want to get our services. You will be notified when the course starts.</p>
+        </div>
+        <div class="col col-lg-5 d-flex align-items-center justify-content-center">
+          <button type="button" class="btn btn-light text-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Register Now</button>
+        </div>
+      </div>
+      <!--====== Modal ====-->
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Registration</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <div class="mb-3">
+                  <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                </div>
+                <div class="mb-3">
+                  <label for="exampleFormControlInput1" class="form-label">Password</label>
+                  <input type="password" class="form-control" id="exampleFormControlInput1" placeholder="password">
+                </div>
+                <div class="mb-3">
+                  <label for="exampleFormControlTextarea1" class="form-label">Your Comment</label>
+                  <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                </div>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Submit</button>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+  </section>
 <!--==================================
    Asked Questions section code here 
   ================================== -->
@@ -246,7 +294,7 @@
     <div class="container">
       <div class="pb-5">
         <h1 class="text-center pt-lg-2 ">Frequently Asked Questions</h1>
-        <p class="w-50 text-center m-auto">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+        <p class="w-50 text-center m-auto text-muted">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
       </div>
         <!-- questions stared  -->
       <div class="accordion accordion-flush w-75 m-auto px-lg-5" id="accordionFlushExample">
